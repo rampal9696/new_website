@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="../utilities.css">
+    <link rel="stylesheet" href="./signin.css">
+    <title>Sign In</title>
+</head>
+<body>
+   
+    <!--------------- navbar part start ------------>
+
+    <section class="nav-header">
+        <div class="container">
+          <div class="nav flex align-items ">
+              <h1>FURNITURE</h1>
+              <ul class="nav-items justify-content align-items flex">
+                  <li class="nav-link"><a href="../website/index.html">Home</a></li>
+                  <li class="nav-link"><a href="#">Shop</a></li>
+                  <li class="nav-link"><a href="../products/product.html">Product</a></li>
+                  <li class="nav-link"><a href="#">About</a></li>
+                  <li class="nav-link"><a href="#">Support</a></li>
+                  <li class="nav-link"><a href="../signup/signup.html">Sign Up</a></li>
+                   
+              </ul>
+              <i class="fas fa-bars" id="bars" 
+              style="
+              font-size: 25px;
+              cursor: pointer;
+              background-color: #000;
+              padding: 15px 20px;
+              border-radius: 7px;
+              color: #fff;
+              "></i> 
+          </div>
+          
+        </div>
+        <div class="side-nav-hide" id="side-bars-id">
+            <ul class="side-nav-items">
+                <li class="side-nav-link"><a href="../website/index.html">Home</a></li>
+                <li class="side-nav-link"><a href="#">Shop</a></li>
+                <li class="side-nav-link"><a href="../products/product.html">Product</a></li>
+                <li class="side-nav-link"><a href="#">About</a></li>
+                <li class="side-nav-link"><a href="#">Support</a></li>
+                <li class="side-nav-link"><a href="../signup/signup.html">Sign Up</a></li>
+                
+                
+            </ul>
+        </div> 
+        
+    </section>
+   
+
+    
+   <!--------------- navbar part end------------>
+
+
+    <!--------------- Sign In part start ------------>
+
+<section id="SignIn-card">
+    <div class="container">
+    <div class="SignIn-card">
+        <div class="card">
+         <p>Email</p>
+         <input type="email" placeholder="Enter the email address">
+         <p>Password</p>
+         <input type="password" placeholder="Enter the password">
+       <div>
+        <button class="btn"><a href="../website/index.html">Sign In</a></button>
+        </div>
+       <div>
+        <a href="#" id="forget">forget password?</a>
+        <a href="../signup/signup.html" id="forget">Create a account?</a>
+       </div>
+       </div>
+     </div>
+   </div>
+</section>
+
+   <!--------------- Sign In part end------------>
+
+ <script src="../website/index.js"></script>
+</body>
+</html>
