@@ -1,0 +1,169 @@
+.container {
+  margin: 0 10%;
+  padding: 0 5%;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 668px) {
+  .container {
+    margin: 0 10%;
+  }
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 65px;
+}
+h2 {
+  font-size: 36px;
+  line-height: 49px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 49px;
+}
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  font-style: normal;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
+}
+p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.53);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.53);
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #00ff00;
+}
+input {
+  outline: none;
+  border-style: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 30px;
+  padding: 10px 10px 10px 20px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+}
+.justify-content {
+  justify-content: center;
+}
+.align-items {
+  align-items: center;
+}
+
+.btn {
+  font-size: 16px;
+  text-transform: uppercase;
+  outline: none;
+  font-weight: 600;
+  border-style: none;
+  background-color: #f2ce0b;
+  padding: 15px 35px;
+  color: rgba(0, 0, 0, 0.67);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background-color: black;
+  color: #fff;
+}
+
+/******************* navbar styling part start *****************/
+section.nav-header {
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.nav {
+  justify-content: space-between;
+  height: 80px;
+  padding: 10px 0;
+}
+.nav h1 {
+  font-weight: 700;
+  font-size: 32px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.nav h1:hover {
+  color: #00ff00;
+}
+
+.nav .nav-items {
+  font-size: 1.1rem;
+  list-style: none;
+}
+.nav .nav-items .nav-link {
+  padding-left: 50px;
+}
+
+.fa-bars {
+  display: none;
+}
+
+@media screen and (max-width: 668px) {
+  .fa-bars {
+    display: block;
+  }
+
+  .nav .nav-items {
+    display: none;
+  }
+}
+.side-nav {
+  background-color: #fff;
+  width: 100vw;
+  padding-top: 60px;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  opacity: 1;
+  z-index: 100;
+
+  transition: all 0.5s ease-in-out;
+}
+.side-nav-hide {
+  position: absolute;
+  opacity: 0;
+  left: -300px;
+  top: 70px;
+  padding-top: 60px;
+  transition: all 0.5s ease-in-out;
+}
+
+.side-nav-items {
+  font-size: 1.1rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.side-nav-link {
+  margin-bottom: 50px;
+}
+
+/******************* navbar styling part end *****************/
